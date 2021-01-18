@@ -1,0 +1,150 @@
+
+
+{% extends 'root.html' %}
+
+{% load static %}
+
+{% block content %}
+<main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>About</h2>
+          <ol>
+            <li><a href="{% url  'homepage'  %}">Home</a></li>
+            <li>About</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about-us" class="about-us">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About Us</strong></h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6" data-aos="fade-right">
+            <img src="{% static 'assets/img/about.jpg'%}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
+            <p>
+              Tamarcom is an innovation-driven enterprise providing IT services that are scalable, secure, proven, easy to use with support provided.
+              Everything we do is with the end result in mind. So if you are trying to generate more sales, leads, or transform your business, we have a solution that works. Our techniques have been proven time and time again. 
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> TAMARCOM Technologies is one of the best Information & Communication Technology (ICT) companies in Nigeria.</li>
+              <li><i class="ri-check-double-line"></i> we are driven by our determination to offer best service to our client.</li>
+              <li><i class="ri-check-double-line"></i>Tamarcom is one of the most soughted after IT firm in the technology World.</li>
+            </ul>
+            <p class="font-italic">
+              We are a dynamic and business focused ICT firm. We introduce a unique set of skills and competences as required for the teeming needs of our clients.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Our Team Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Our <strong>Team</strong></h2>
+          <p>Tamarcom's management team has extensive experience across a multitude of IT domains. Collectively our management team has 5+ years of experience spanning across Web design & developmen, Machine learning, Marketing & Content writing.
+
+           </p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up">
+              <div class="member-img">
+                <img src="{% static 'assets/img/team/team-1.jpg'%}" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="http://www.twitter.com/teslima0 "><i class="icofont-twitter"></i></a>
+                  <a href="http://www.facebook.com/teslima0 "><i class="icofont-facebook"></i></a>
+                  <a href="http://www.instagram.com/teslima0 "><i class="icofont-instagram"></i></a>
+                  <a href="# "><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Oyedotun Teslim</h4>
+                <span>Chief Executive Officer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="{% static 'assets/img/team/team-2.jpg'%}" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Mariam Ali</h4>
+                <span>Product Manager</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <div class="member-img">
+                <img src="{% static 'assets/img/team/team-3.jpg'%}" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Aare Habibulah</h4>
+                <span>CTO</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="{% static 'assets/img/team/team-4.jpg'%}" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>O'dotun Olamide</h4>
+                <span>Accountant</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Our Team Section -->
+
+  
+
+
+  
+{% endblock %}
